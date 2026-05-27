@@ -14,7 +14,7 @@ log() {
 }
 
 log "================================================"
-log "iOS Emoji 18.4 - post-mount.sh"
+log "iOS Emoji 26.4 - post-mount.sh"
 log "================================================"
 
 # Detect root manager

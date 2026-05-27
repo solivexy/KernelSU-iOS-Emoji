@@ -27,7 +27,7 @@ log() {
 }
 
 log "================================================"
-log "iOS Emoji 18.4 - Uninstall Script"
+log "iOS Emoji 26.4 - Uninstall Script"
 log "Root Manager: $ROOT_MANAGER"
 log "================================================"
 

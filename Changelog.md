@@ -1,6 +1,6 @@
 # Changelog
 
-## v26.2.1 (Current Release)
+## v26.4 (Current Release)
 
 ### 🚀 Major Changes
 - **KernelSU Next Support**: Full compatibility with KernelSU Next
@@ -22,7 +22,7 @@
 - Enhanced `service.sh` with nsenter support for KernelSU Next
 - Enhanced `boot-completed.sh` with SELinux context restoration
 - Updated `customize.sh` to detect KernelSU Next
-- Module version updated to v18.4.3 (versionCode 18403)
+- Module version updated to v26.4 (versionCode 26400)
 
 ### 🐛 Bug Fixes
 - Fixed font mounting issues on KernelSU without metamodule
@@ -38,7 +38,7 @@
 
 ---
 
-## v18.4 (KernelSU Edition)
+## v26.4 (KernelSU Edition)
 
 ### 🚀 Major Changes
 - **KernelSU Support**: Full compatibility with KernelSU root manager
@@ -52,7 +52,7 @@
 - Added `action.sh` for manual emoji refresh from manager app
 
 ### 🎨 Emoji Updates
-- Updated to iOS 18.4 Emojis ([Unicode 16.0](https://emojipedia.org/unicode-16.0))
+- Updated to iOS 26.4 Emojis ([Unicode 16.0](https://emojipedia.org/unicode-16.0))
 - Thanks to [samuelngs/apple-emoji-linux](https://github.com/samuelngs/apple-emoji-linux) for the emoji font source
 
 ### 🔧 Improvements

@@ -14,7 +14,7 @@ log() {
 }
 
 log "================================================"
-log "iOS Emoji 18.4 - boot-completed.sh"
+log "iOS Emoji 26.4 - boot-completed.sh"
 log "================================================"
 
 # Detect root manager

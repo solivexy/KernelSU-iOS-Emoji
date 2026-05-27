@@ -1,7 +1,7 @@
 ##########################################################################################
 #
 # KernelSU / Magisk / APatch Module Installer Script
-# iOS 18.4 Emoji Font Module
+# iOS 26.4 Emoji Font Module
 #
 ##########################################################################################
 #!/system/bin/sh
@@ -34,7 +34,7 @@ else
 fi
 
 ui_print "*******************************"
-ui_print "*     iOS Emoji 18.4          *"
+ui_print "*     iOS Emoji 26.4          *"
 ui_print "*     $ROOT_MANAGER Edition   *"
 ui_print "*******************************"
 

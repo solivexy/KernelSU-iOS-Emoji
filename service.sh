@@ -92,7 +92,7 @@ service_exists() {
 #################
 
 log "================================================"
-log "iOS Emoji 18.4 - service.sh"
+log "iOS Emoji 26.4 - service.sh"
 log "Root Manager: $ROOT_MANAGER"
 log "Brand: $(getprop ro.product.brand)"
 log "Device: $(getprop ro.product.model)"

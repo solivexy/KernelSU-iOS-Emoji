@@ -1,14 +1,14 @@
 # KernelSU-iOS-Emoji
 
-Systemlessly replaces the emoji font with iOS 18.4 Emoji.
+Systemlessly replaces the emoji font with iOS 26.4 Emoji.
 
 **Compatible with KernelSU, KernelSU Next, Magisk, and APatch.**
 
 **✨ No metamodule required! Direct mounting support for all platforms.**
 
-[![Stars](https://img.shields.io/github/stars/Keinta15/KernelSU-iOS-Emoji?label=Stars&color=blue)](https://github.com/Keinta15/KernelSU-iOS-Emoji)
-[![Release](https://img.shields.io/github/v/release/Keinta15/KernelSU-iOS-Emoji?label=Release&logo=github)](https://github.com/Keinta15/KernelSU-iOS-Emoji/releases/latest)
-[![Download](https://img.shields.io/github/downloads/Keinta15/KernelSU-iOS-Emoji/total?label=Downloads&logo=github)](https://github.com/Keinta15/KernelSU-iOS-Emoji/releases/)
+[![Stars](https://img.shields.io/github/stars/solivexy/KernelSU-iOS-Emoji?label=Stars&color=blue)](https://github.com/solivexy/KernelSU-iOS-Emoji)
+[![Release](https://img.shields.io/github/v/release/solivexy/KernelSU-iOS-Emoji?label=Release&logo=github)](https://github.com/solivexy/KernelSU-iOS-Emoji/releases/latest)
+[![Download](https://img.shields.io/github/downloads/solivexy/KernelSU-iOS-Emoji/total?label=Downloads&logo=github)](https://github.com/solivexy/KernelSU-iOS-Emoji/releases/)
 
 > [!TIP]
 > Contributions are welcome! If you'd like to help improve this module, feel free to submit a pull request. Check out the [Contributing](#contributing) section for more details.
@@ -26,7 +26,7 @@ Systemlessly replaces the emoji font with iOS 18.4 Emoji.
 
 ### KernelSU / KernelSU Next
 
-1. Download the latest release from the [Releases page](https://github.com/Keinta15/KernelSU-iOS-Emoji/releases/latest)
+1. Download the latest release from the [Releases page](https://github.com/solivexy/KernelSU-iOS-Emoji/releases/latest)
 2. Open the KernelSU Manager app
 3. Go to **Modules** → tap the **Install** button (➕) and select the downloaded ZIP file
 4. Reboot your device
@@ -36,7 +36,7 @@ Systemlessly replaces the emoji font with iOS 18.4 Emoji.
 
 ### Magisk
 
-1. Download the latest release from the [Releases page](https://github.com/Keinta15/KernelSU-iOS-Emoji/releases/latest)
+1. Download the latest release from the [Releases page](https://github.com/solivexy/KernelSU-iOS-Emoji/releases/latest)
 2. Open the Magisk app
 3. Go to **Modules** → **Install from storage** and select the downloaded ZIP file
 4. Reboot your device
@@ -44,7 +44,7 @@ Systemlessly replaces the emoji font with iOS 18.4 Emoji.
 
 ### APatch
 
-1. Download the latest release from the [Releases page](https://github.com/Keinta15/KernelSU-iOS-Emoji/releases/latest)
+1. Download the latest release from the [Releases page](https://github.com/solivexy/KernelSU-iOS-Emoji/releases/latest)
 2. Open the APatch app
 3. Go to **Modules** → tap the **Install** button and select the downloaded ZIP file
 4. Reboot your device
@@ -58,13 +58,13 @@ Systemlessly replaces the emoji font with iOS 18.4 Emoji.
 
 ## Screenshot
 
-<img src="https://github.com/Keinta15/KernelSU-iOS-Emoji/blob/main/iOS_Emoji_Screenshot.jpg" alt="iOS Emojis on Android" width="400" />
+<img src="https://github.com/solivexy/KernelSU-iOS-Emoji/blob/main/iOS_Emoji_Screenshot.jpg" alt="iOS Emojis on Android" width="400" />
 
 *Example of iOS emojis displayed on an Android device.*
 
 ## Features
 
-- 🍎 **iOS 18.4 Emojis** - Latest Unicode 16.0 emoji set
+- 🍎 **iOS 26.4 Emojis** - Latest Unicode 16.0 emoji set
 - 🔄 **Multi-Root Manager Support** - KernelSU, KernelSU Next, Magisk, and APatch
 - 🚀 **No Metamodule Required** - Direct mounting without dependencies
 - 🤖 **Android 16 QPR1 Ready** - Full SELinux context support
@@ -87,7 +87,7 @@ This module includes the following scripts that run at different boot stages:
 
 ## Changelog
 
-### v18.4.3 (Current)
+### v26.4 (Current)
 - **KernelSU Next Support**
   - Added KernelSU Next detection and compatibility
   - Implemented nsenter mounting method for KernelSU Next
@@ -101,12 +101,12 @@ This module includes the following scripts that run at different boot stages:
   - Works without meta-overlayfs
   - Simplified installation process
 
-### v18.4 (KernelSU Edition)
+### v26.4 (KernelSU Edition)
 - **KernelSU & APatch Support**
   - Ported module for full KernelSU compatibility
   - Added APatch support
   - Module now auto-detects root manager (KernelSU/Magisk/APatch)
-- Added iOS 18.4 Emojis ([Unicode 16.0](https://emojipedia.org/unicode-16.0))
+- Added iOS 26.4 Emojis ([Unicode 16.0](https://emojipedia.org/unicode-16.0))
 - Added `post-mount.sh` for KernelSU post-mount stage
 - Added `boot-completed.sh` for KernelSU boot-completed stage
 - Added `uninstall.sh` for proper cleanup on module removal
@@ -145,7 +145,7 @@ This module includes the following scripts that run at different boot stages:
 
 ## Changelog for Emojis
 
-- [18.4 New Emojis](https://blog.emojipedia.org/apple-ios-18-4-emoji-changelog/)
+- [26.4 New Emojis](https://blog.emojipedia.org/apple-ios-26-4-emoji-changelog/)
 - [17.4 New Emojis](https://blog.emojipedia.org/ios-17-4-emoji-changelog/)
 - [16.4 New Emojis](https://blog.emojipedia.org/ios-16-4-emoji-changelog/)
 - [15.4 New Emojis](https://blog.emojipedia.org/ios-15-4-emoji-changelog/)
@@ -188,7 +188,7 @@ This module includes the following scripts that run at different boot stages:
 - OnePlus 8T (Android 13)
 - OnePlus 6
 - Pixel 7 Pro (Android 15, 16)
-- [Reported working by users](https://github.com/Keinta15/KernelSU-iOS-Emoji/issues?q=is%3Aissue+is%3Aclosed+label%3A%22reported+working%22)
+- [Reported working by users](https://github.com/solivexy/KernelSU-iOS-Emoji/issues?q=is%3Aissue+is%3Aclosed+label%3A%22reported+working%22)
 
 ## Troubleshooting
 
@@ -227,7 +227,7 @@ iOS_Emoji/
 ├── uninstall.sh         # Cleanup on removal
 ├── system/
 │   └── fonts/
-│       └── NotoColorEmoji.ttf  # iOS 18.4 emoji font
+│       └── NotoColorEmoji.ttf  # iOS 26.4 emoji font
 ├── META-INF/            # Magisk compatibility
 ├── update.json          # KernelSU update info
 └── updater.json         # Magisk update info
@@ -245,7 +245,7 @@ Please ensure your code includes relevant documentation.
 
 ## Credits
 
-- Original module by [Keinta15](https://github.com/Keinta15)
+- Original module by [solivexy](https://github.com/solivexy)
 - iOS Emoji font source: [samuelngs/apple-emoji-linux](https://github.com/samuelngs/apple-emoji-linux)
 - KernelSU: [tiann/KernelSU](https://github.com/tiann/KernelSU)
 - Magisk: [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk)
@@ -253,4 +253,4 @@ Please ensure your code includes relevant documentation.
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/Keinta15/KernelSU-iOS-Emoji/blob/main/LICENSE). Feel free to use, modify, and distribute it as per the license terms.
+This project is licensed under the [MIT License](https://github.com/solivexy/KernelSU-iOS-Emoji/blob/main/LICENSE). Feel free to use, modify, and distribute it as per the license terms.

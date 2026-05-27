@@ -19,7 +19,7 @@ fi
 
 echo ""
 echo "================================"
-echo "  iOS Emoji 18.4 - Action"
+echo "  iOS Emoji 26.4 - Action"
 echo "  Root Manager: $ROOT_MANAGER"
 echo "================================"
 echo ""

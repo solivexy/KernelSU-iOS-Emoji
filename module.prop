@@ -1,7 +1,7 @@
 id=iOS_Emoji
-name=iOS 18.4 Emoji Font
-version=v18.4.3
-versionCode=18403
-author=Keinta15
-description=Systemlessly replaces emoji font with iOS 18.4 Emoji. Supports Android 10-16 QPR1 with KernelSU/KernelSU Next/Magisk/APatch.
-updateJson=https://raw.githubusercontent.com/Keinta15/KernelSU-iOS-Emoji/main/update.json
+name=iOS 26.4 Emoji Font
+version=v26.4
+versionCode=26400
+author=solivexy
+description=Systemlessly replaces emoji font with iOS 26.4 Emoji. Supports Android 10-16 QPR1 with KernelSU/KernelSU Next/Magisk/APatch.
+updateJson=https://raw.githubusercontent.com/solivexy/KernelSU-iOS-Emoji/main/update.json
